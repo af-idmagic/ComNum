@@ -4,11 +4,10 @@
 
 `ComNum_test.py`
 ---
-La classe ComNum définit un [nombre complexe](https://en.wikipedia.org/wiki/Complex_number) :
+La classe `ComNum` définit un [nombre complexe](https://en.wikipedia.org/wiki/Complex_number) :
 
-`>>> print(ComNum(X, Y))`
-
-`X + Y*i`
+```>>> print(ComNum(X, Y))`
+X + Y*i```
 
 où `i` est l'unité imaginaire (`i*i = -1`),
 
