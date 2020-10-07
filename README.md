@@ -3,6 +3,7 @@
 (c) Alexey FEDOROV (idmagic) 2020
 
 `ComNum_test.py`
+---
 La classe ComNum définit un [nombre complexe](https://en.wikipedia.org/wiki/Complex_number) :
 
 `>>> print(ComNum(X, Y))`
@@ -14,6 +15,7 @@ où `i` est l'unité imaginaire (`i*i = -1`),
 `X` est la partie réelle du nombre
 
 et `Y` est la partie imaginaire du nombre
+
 
 Le paquet contient les méthodes basiques se rapportant au nombres complexes :
 
@@ -30,8 +32,10 @@ Le paquet contient les méthodes basiques se rapportant au nombres complexes :
   *  `com_exp_alt` :	idem, solution alternative de calcul
   
 Lancez `help(ComNum)` pour lire les docstrings et les doctests démonstratifs pour ces méthodes.
-  
+
+
 `ComNum_use_examples.py`
+---
 Script démonstratif pour des opérations avec des nombres complexes
 qui utilise toutes les méthodes définis dans ComNum_test.py
 
