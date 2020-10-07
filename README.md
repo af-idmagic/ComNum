@@ -35,7 +35,6 @@ Lancez `help(ComNum)` pour lire les docstrings et les doctests démonstratifs po
 
 `ComNum_use_examples.py`
 ---
-Script démonstratif pour des opérations avec des nombres complexes
-qui utilise toutes les méthodes définis dans ComNum_test.py
+Script démonstratif pour des opérations avec des nombres complexes qui utilise toutes les méthodes définis dans `ComNum_test.py`.
 
 Lancez-le pour une démonstration concise et explicite.
