@@ -1,14 +1,13 @@
 **Opérations basiques avec des nombres complexes**
 ==================================================
-_(c) Alexey FEDOROV (idmagic) 2020_
+_© Alexey FEDOROV (idmagic) 2020_
 
 `ComNum_test.py`
 ---
 La classe `ComNum` définit un [nombre complexe](https://en.wikipedia.org/wiki/Complex_number) :
 
-`>>> print(ComNum(X, Y))`
-
-`X + Y*i`
+    >>> print(ComNum(X, Y))
+    X + Y*i
 
 où `i` est l'unité imaginaire (`i*i = -1`),
 
@@ -19,17 +18,17 @@ et `Y` est la partie imaginaire du nombre
 
 Le paquet contient les méthodes basiques se rapportant au nombres complexes :
 
-  *  `print` :  impression d'un nombre complexe sous forme classique (`X + Y*i`)
-  *  `round` :  arrondissement des parties réelle et imaginaire d'un nombre complexe aux n décimales
-  *  `==` :  vérification d'égalité entre 2 nombres complexes
-  *  `+ - * /` :  les opérations arithmetiques de base
-  *  `modul`, `argt` :  modulus et argument d'un nombre complexe
-  *  `conjug` :  nombre complexe conjugué (`X - Y*i`)
-  *  `recipr` :  nombre complexe réciproqué
-  *  `pr_sqrt` :  racine carrée principale d'un nombre complexe
-  *  `pr_com_ln` :  valeur principale de logarithme naturel d'un nombre complexe
-  *  `com_exp` :  un nombre complexe en puissance n (où n est obligatoirement un nombre entier)
-  *  `com_exp_alt` :  idem, solution alternative de calcul
+  *  `print` :&nbsp;&nbsp;  impression d'un nombre complexe sous forme classique (`X + Y*i`)
+  *  `round` :&nbsp;&nbsp;  arrondissement des parties réelle et imaginaire d'un nombre complexe aux `n` décimales
+  *  `==` :&nbsp;&nbsp;  vérification d'égalité entre 2 nombres complexes
+  *  `+ - * /` :&nbsp;&nbsp;  les opérations arithmetiques de base
+  *  `modul`, `argt` :&nbsp;&nbsp;  modulus et argument d'un nombre complexe
+  *  `conjug` :&nbsp;&nbsp;  nombre complexe conjugué (`X - Y*i`)
+  *  `recipr` :&nbsp;&nbsp;  nombre complexe réciproqué
+  *  `pr_sqrt` :&nbsp;&nbsp;  racine carrée principale d'un nombre complexe
+  *  `pr_com_ln` :&nbsp;&nbsp;  valeur principale de logarithme naturel d'un nombre complexe
+  *  `com_exp` :&nbsp;&nbsp;  un nombre complexe en puissance `n` (où `n` est obligatoirement un nombre entier)
+  *  `com_exp_alt` :&nbsp;&nbsp;  idem, solution alternative de calcul
   
 Lancez `help(ComNum)` pour lire les docstrings et les doctests démonstratifs pour ces méthodes.
 
