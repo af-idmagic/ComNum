@@ -1,40 +1,41 @@
-**Opérations basiques avec des nombres complexes**
+**Basic operations with complex numbers**
 ==================================================
 _© Alexey FEDOROV (idmagic) 2020_
 
-`ComNum_test.py`
+`comnum.py`
 ---
-La classe `ComNum` définit un [nombre complexe](https://en.wikipedia.org/wiki/Complex_number) :
+The class `ComNum` defines a [complex number](https://en.wikipedia.org/wiki/Complex_number):
 
     >>> print(ComNum(X, Y))
     X + Y*i
 
-où `i` est l'unité imaginaire (`i*i = -1`),
+where `i` is the imaginary unit (`i*i = -1`),
 
-`X` est la partie réelle du nombre
+`X` is the real part of the number
 
-et `Y` est la partie imaginaire du nombre
+and `Y` is the imaginary part of the number
 
 
-Le paquet contient les méthodes basiques se rapportant au nombres complexes :
+The package contains the basic methods for complex numbers:
 
-  *  `print` :&nbsp;&nbsp;  impression d'un nombre complexe sous forme classique (`X + Y*i`)
-  *  `round` :&nbsp;&nbsp;  arrondissement des parties réelle et imaginaire d'un nombre complexe aux `n` décimales
-  *  `==` :&nbsp;&nbsp;  vérification d'égalité entre 2 nombres complexes
-  *  `+ - * /` :&nbsp;&nbsp;  les opérations arithmetiques de base
-  *  `modul`, `argt` :&nbsp;&nbsp;  modulus et argument d'un nombre complexe
-  *  `conjug` :&nbsp;&nbsp;  nombre complexe conjugué (`X - Y*i`)
-  *  `recipr` :&nbsp;&nbsp;  nombre complexe réciproqué
-  *  `pr_sqrt` :&nbsp;&nbsp;  racine carrée principale d'un nombre complexe
-  *  `pr_com_ln` :&nbsp;&nbsp;  valeur principale de logarithme naturel d'un nombre complexe
-  *  `com_exp` :&nbsp;&nbsp;  un nombre complexe en puissance `n` (où `n` est obligatoirement un nombre entier)
-  *  `com_exp_alt` :&nbsp;&nbsp;  idem, solution alternative de calcul
+  *  `print` :&nbsp;&nbsp;  printing a complex number in its classic form (`X + Y*i`)
+  *  `round` :&nbsp;&nbsp;  rounding the real part and the imaginary part of a complex number to `n` decimal places
+  *  `==` :&nbsp;&nbsp;  checking equality between 2 complex numbers
+  *  `+ - * /` :&nbsp;&nbsp;  basic arithmetic operations
+  *  `modul`, `argt` :&nbsp;&nbsp;  modulus and argument of a complex number
+  *  `conjug` :&nbsp;&nbsp;  conjugate of a complex number (`X - Y*i`)
+  *  `recipr` :&nbsp;&nbsp;  reciprocated complex number
+  *  `pr_sqrt` :&nbsp;&nbsp;  principal square root of a complex number
+  *  `pr_com_ln` :&nbsp;&nbsp;  principal value of the natural logarithm of a complex number
+  *  `com_exp` :&nbsp;&nbsp;  complex number to the power of `n` (where `n` must be an integer)
+  *  `com_exp_alt` :&nbsp;&nbsp;  idem, alternative calculation solution
   
-Lancez `help(ComNum)` pour lire les docstrings et les doctests démonstratifs pour ces méthodes.
+Launch `help(ComNum)` to read the docstrings and doctest examples for these methods.
 
 
-`ComNum_use_examples.py`
+`comnum_use_examples.py`
 ---
-Script démonstratif pour des opérations avec des nombres complexes qui utilise toutes les méthodes définis dans `ComNum_test.py`.
+Demonstrative script for operations with complex numbers
+that used all the methods defined in comnum.py
 
-Lancez-le pour une démonstration concise et explicite.
+Launch it for a concise et explicit demonstration.
