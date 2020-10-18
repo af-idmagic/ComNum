@@ -38,4 +38,4 @@ Launch `help(ComNum)` to read the docstrings and doctest examples for these meth
 Demonstrative script for operations with complex numbers
 that used all the methods defined in comnum.py
 
-Launch it for a concise et explicit demonstration.
+Launch it for a concise and explicit demonstration.
